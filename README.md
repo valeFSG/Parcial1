@@ -11,6 +11,7 @@ Repositorio para la evaluación.
 Se utilizó GitHub Actions para automatizar la validación de archivos Markdown, con el objetivo de asegurar buenas prácticas de documentación.
 
 Se implementó markdownlint para detectar errores como:
+
 - Líneas en blanco incorrectas
 - Problemas en encabezados
 - Formato inconsistente
