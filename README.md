@@ -19,3 +19,12 @@ Se implementó markdownlint para detectar errores como:
 Esto permite mantener un estándar en el proyecto y evitar errores manuales.
 
 Se trabajó con ramas (feature y develop) para simular un flujo de trabajo colaborativo y ordenado.
+
+## Documentación
+
+- Ver [CHANGELOG](CHANGELOG.md)
+- Ver [CONTRIBUTING](CONTRIBUTING.md)
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
