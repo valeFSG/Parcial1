@@ -6,26 +6,25 @@ Repositorio para la evaluación del parcial 1.
 
 ## Registro agregado
 
-## Flujo de trabajo
+## Justificación
 
-En este proyecto se trabajó con ramas para organizar el desarrollo.
+Se utilizó GitHub Actions para automatizar la validación de archivos Markdown, con el objetivo de asegurar buenas prácticas de documentación.
 
-Se utilizó una rama develop para integrar los cambios, y ramas feature para cada funcionalidad (login y registro).
+Se implementó markdownlint para detectar errores como:
 
-Además, se creó una rama hotfix para corregir un error, la cual fue integrada a main mediante un pull request.
+- Líneas en blanco incorrectas
+- Problemas en encabezados
+- Formato inconsistente
 
-Este enfoque es similar a GitFlow simplificado, ya que permite trabajar de forma ordenada y evitar conflictos.
+Esto permite mantener un estándar en el proyecto y evitar errores manuales.
 
-## Convención de commits
+Se trabajó con ramas (feature y develop) para simular un flujo de trabajo colaborativo y ordenado.
 
-Se utilizaron los siguientes prefijos:
+## Documentación
 
-- feat: para nuevas funcionalidades
-- fix: para correcciones
-- docs: para documentación
+- Ver [CHANGELOG](CHANGELOG.md)
+- Ver [CONTRIBUTING](CONTRIBUTING.md)
 
-## Automatización
+## Licencia
 
-Se configuró GitHub Actions para validar los archivos Markdown automáticamente en cada cambio.
-
-Esto ayuda a mantener el orden y buenas prácticas en la documentación.
+Este proyecto está bajo la licencia MIT.
